@@ -1,0 +1,73 @@
+# Ignore build output folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code-specific files
+.vscode/
+
+# Rider files (for JetBrains Rider users)
+.idea/
+*.sln.iml
+
+# ASP.NET files
+# Uncomment if you are using an ASP.NET project with secrets
+# *.Secret
+# secrets.json
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.log
+*.sdf
+*.cache
+*.pdb
+
+# Compiled DLLs and executables
+*.dll
+*.exe
+
+# Code coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Dotnet tools
+.dotnet/
+tools/
+
+# Package and restore-related files
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Dependency manager files
+*.csproj.nuget.cache
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Uncomment these if you use NuGet's restore mechanism
+# *.nuget/packages/
+# packages/
+
+# Visual Studio-specific files
+.vs/
+_ReSharper*
+*.resharper
+*.tlog
+*.VC.db
+*.VC.VC.opendb
+
+# Logs
+logs/
